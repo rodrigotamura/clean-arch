@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "main": "tsc && node ./dist/main.js",
+    "test": "tsc && jest ./dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/rodrigotamura/clean-arch/issues"
   },
-  "homepage": "https://github.com/rodrigotamura/clean-arch#readme"
+  "homepage": "https://github.com/rodrigotamura/clean-arch#readme",
+  "dependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6"
+  }
 }
