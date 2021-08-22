@@ -1,3 +1,5 @@
+// Memory due to use memory in order to store parking lots
+
 import ParkingLotAdapter from "../../adapter/ParkingLotAdapter";
 import ParkingLot from "../../core/entities/ParkingLot";
 import ParkingLotRepository from "../../core/repository/ParkingLotRepository";
