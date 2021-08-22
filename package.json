@@ -6,7 +6,8 @@
   "scripts": {
     "main": "tsc && node ./dist/main.js",
     "test": "tsc && jest ./dist",
-    "express": "tsc && node ./dist/src/infra/http/express.js"
+    "express": "tsc && node ./dist/src/infra/http/express.js",
+    "hapi": "tsc && node ./dist/src/infra/http/hapi.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/rodrigotamura/clean-arch#readme",
   "dependencies": {
+    "@hapi/hapi": "^20.1.5",
     "@types/jest": "^27.0.1",
     "express": "^4.17.1",
     "jest": "^27.0.6",
