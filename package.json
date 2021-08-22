@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "main": "tsc && node ./dist/main.js",
-    "test": "tsc && jest ./dist"
+    "test": "tsc && jest ./dist",
+    "express": "tsc && node ./dist/src/infra/http/express.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/rodrigotamura/clean-arch#readme",
   "dependencies": {
     "@types/jest": "^27.0.1",
+    "express": "^4.17.1",
     "jest": "^27.0.6",
     "pg-promise": "^10.11.0"
   }
